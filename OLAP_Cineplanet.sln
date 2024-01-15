@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP_Cineplanet", "OLAP_Cineplanet\OLAP_Cineplanet.dwproj", "{EB113191-0D83-4029-8DCE-115C6E13EB84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB113191-0D83-4029-8DCE-115C6E13EB84}.Development|Default.ActiveCfg = Development
+		{EB113191-0D83-4029-8DCE-115C6E13EB84}.Development|Default.Build.0 = Development
+		{EB113191-0D83-4029-8DCE-115C6E13EB84}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA2D4A92-899F-4AEE-9186-D7DBBFFC3D24}
+	EndGlobalSection
+EndGlobal
