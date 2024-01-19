@@ -6,10 +6,63 @@
     <Name>OLAP_Cineplanet.database</Name>
     <FullPath>OLAP_Cineplanet.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DM CineOrigen.cube</Name>
+      <FullPath>DM CineOrigen.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DM CineOrigen.partitions</Name>
+          <FullPath>DM CineOrigen.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dimcliente.dim</Name>
+      <FullPath>Dimcliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dimpelicula.dim</Name>
+      <FullPath>Dimpelicula.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dimtiempo.dim</Name>
+      <FullPath>Dimtiempo.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DM Cine.ds</Name>
+      <FullPath>DM Cine.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DM CineOrigen.dsv</Name>
+      <FullPath>DM CineOrigen.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DM Cine</Id>
+            <Name>DM Cine</Name>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=DM_Cine</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DM Cine</Id>
+            <Name>DM Cine</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
