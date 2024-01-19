@@ -31,6 +31,10 @@
       <Name>Dimtiempo.dim</Name>
       <FullPath>Dimtiempo.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dimsala.dim</Name>
+      <FullPath>Dimsala.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
